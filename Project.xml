@@ -51,10 +51,7 @@
 	<define name="PSYCH_WATERMARKS" /> <!-- DELETE THIS TO REMOVE WATERMARKS/DEV NAMES ON TITLE SCREEN -->
 	<define name="TITLE_SCREEN_EASTER_EGG" if="release" /> <!-- DELETE THE if="officialBuild" for enabling this on an unofficial build -->
 	<define name="CRASH_HANDLER" if="release" />
-
-	<section if="TITLE_SCREEN_EASTER_EGG">
-	/section>
-
+	
 	<!-- DONT ENABLE THIS -->
 	<define name="CHECK_FOR_UPDATES" if="release" />
 
